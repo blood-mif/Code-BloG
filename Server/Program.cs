@@ -9,10 +9,9 @@ namespace Server
         static void Main(string[] args)
         {
             var httpListener = new HttpListener();
-
             httpListener.Prefixes.Add("http://localhost:51369/");
-
             httpListener.Start();
+
 
             while (true)
             {

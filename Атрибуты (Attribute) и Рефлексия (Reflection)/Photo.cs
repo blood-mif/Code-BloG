@@ -8,8 +8,8 @@ namespace Атрибуты__Attribute__и_Рефлексия__Reflection_
     {
     [GeoAttributte(10,20)]
         public string Name { get; set; }
-        public string Path { get; set; }
         [GeoAttributte(10, 20)]
+        public string Path { get; set; }
         public Photo(string name)
         {
             // Проверка входных данных

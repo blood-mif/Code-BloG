@@ -27,7 +27,7 @@ namespace Атрибуты__Attribute__и_Рефлексия__Reflection_
 
                 if(attrs.Any(a => a.GetType() == typeof(GeoAttributte)))
                 {
-                Console.WriteLine(item.PropertyType +" "+item.Name);
+                Console.WriteLine(item.PropertyType  +" "+item.Name);
 
                 }
 
